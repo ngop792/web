@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Giày</title>
+    <style>
+        .men_women {
+            display: flex;
+            justify-content: space-around; /* Căn giữa các phần tử */
+            margin: 20px;
+        }
+        .men_img, .women_img {
+            position: relative;
+            width: 300px; /* Độ rộng của ảnh */
+        }
+        .men_img img, .women_img img {
+            width: 100%; /* Ảnh tự động điều chỉnh độ rộng */
+            height: auto;
+        }
+        .text_men, .text_women {
+            position: absolute;
+            bottom: 10%; /* Đặt chữ ở dưới cùng */
+            left: 50%;
+            transform: translateX(-50%);
+            color: white; /* Màu chữ */
+            font-size: 18px; /* Kích thước chữ */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Đổ bóng cho chữ */
+            background: rgba(0, 0, 0, 0.5); /* Nền mờ cho chữ */
+            padding: 5px; /* Khoảng cách giữa chữ và viền */
+        }
+    </style>
+</head>
+<body>
+
+<div class="men_women">
+    <div class="men_img">
+        <img src="/Quan_Short_adidas_Z.N.E._Moi_trang_JJ4893_21_model.avif" alt="Shop giày nam" class="men">
+        <div class="text_men">Giày phong cách cho nam</div>
+    </div>
+     
+    <div class="women_img">
+        <img src="/Q9qvd0bQXz1p9BhRfSHy.jpg" alt="Shop giày nữ" class="women">
+        <div class="text_women">Giày phong cách cho nữ</div>
+    </div>
+</div>
+
+</body>
+</html>

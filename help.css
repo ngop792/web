@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+html {
+    font-family:"SUSE", sans-serif;
+}
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.input-help {
+    /* text-align: center; */
+  
+    
+}
+
+input[type="text"] {
+    width: 300px; /* Chiều rộng của input */
+    padding: 10px; /* Khoảng cách bên trong */
+    font-size: 16px; /* Kích thước chữ */
+    border: none;
+    border-radius: 5px; /* Bo góc */
+    background:#f9f9f9;
+}
+
+input[type="text"]:focus {
+    border-color: skyblue; /* Màu viền khi focus */
+    outline: none; /* Bỏ outline */
+}
+.faq-section {
+    padding:40px;
+    background:#f9f9f9;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.faq-content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.faq-category {
+    width:40%;
+    margin:10px;
+    padding:20px;
+    background:#f9f9f9;
+    letter-spacing: 1px;
+    /* border-radius:8px; */
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+}
+.faq-category h3 {
+    margin-bottom:15px;
+}
+.allbirds-approach {
+    text-align: center;
+    margin-top:40px;
+}
+.allbirds-approach h3 {
+    margin-bottom: 20px;
+}
+.allbirds-approach p {
+    margin:5px 0;
+    padding-top:20px;
+}
+
+.content-banner {
+    background-color: skyblue; /* Màu nền */
+    display: flex; /* Sử dụng flexbox */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100vh; /* Chiều cao của phần banner */
+    text-align: center; /* Căn giữa văn bản */
+    height:450px;
+    margin-top:40px;
+}
+
+.help-content {
+    padding: 20px; /* Khoảng cách bên trong */
+    color: white; /* Màu chữ */
+}
+.faq-content .faq-category p {
+    padding-top:20px;
+    font-size: 14px;
+}
